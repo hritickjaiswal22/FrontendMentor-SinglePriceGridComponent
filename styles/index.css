@@ -1,0 +1,143 @@
+/* <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+</p> */
+/* style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pricing {
+  height: 720px;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 0.5rem;
+}
+
+.about-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.about-section__main-heading {
+  color: #00e5ff;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-section__secondary-heading {
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  color: #c0e218;
+}
+
+.about-section__paragraph {
+  letter-spacing: 0.1rem;
+  color: hsl(218, 22%, 67%);
+  font-weight: 600;
+}
+
+.card-section {
+  display: flex;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.card {
+  width: 50%;
+  padding: 2rem;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+
+.left-card {
+  border-radius: 0 0 0 0.5rem;
+}
+
+.right-card {
+  border-radius: 0 0 0.5rem 0;
+  background-color: #4bbebc;
+}
+
+.card__primary-heading {
+  margin-bottom: 1rem;
+}
+
+.card__secondary-heading {
+  margin-bottom: 0.7rem;
+}
+
+.amount {
+  font-size: 2rem;
+}
+
+.btn {
+  color: white;
+  display: block;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.green_btn {
+  background-color: #c0e218;
+  transition: transform 0.5s;
+}
+
+.green_btn:hover {
+  transform: scale(1.05);
+}
+
+.whyUs {
+  color: hsl(204, 43%, 93%);
+}
+
+footer {
+  font-family: 'Karla', sans-serif;
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 85%;
+  }
+
+  .card-section {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .about-section,
+  .left-card,
+  .right-card {
+    padding: 0.9rem;
+  }
+
+  .about-section__main-heading {
+    margin-bottom: 0.5rem;
+  }
+}
